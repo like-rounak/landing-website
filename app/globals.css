@@ -17,14 +17,21 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
+.bg-purple-100 {
+  background-color: #E0E0FF;
+}
+
+.bg-purple-200 {
+  background-color: #C0C0FF;
+}
+
+.bg-purple-300 {
+  background-color: #A0A0FF;
+}
+
 
 @layer utilities {
   .text-balance {
